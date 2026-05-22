@@ -154,7 +154,7 @@ with st.sidebar:
         df = st.session_state.df
         st.caption(f"**{len(df):,}** SKU yüklü")
         st.caption(f"**{df['cluster_id'].nunique()}** küme")
-    st.caption("EM Bitirme Projesi · 2025")
+    st.caption("Yusuf Taşkan Bitirme Projesi · 2026")
 
 df = st.session_state.df
 
